@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="104615" started-at="2016-02-10T12:26:14Z" finished-at="2016-02-10T12:27:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="104615" started-at="2016-02-10T12:26:14Z" finished-at="2016-02-10T12:27:59Z">
+      <class name="healthcalculator.DashboardHealthCalculatorLogic">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:healthcalculator.DashboardHealthCalculatorLogic@6f17beff]" name="OpenBrowser" is-config="true" duration-ms="14398" started-at="2016-02-10T17:56:14Z" finished-at="2016-02-10T17:56:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="Logic()[pri:0, instance:healthcalculator.DashboardHealthCalculatorLogic@6f17beff]" name="Logic" duration-ms="23240" started-at="2016-02-10T17:56:28Z" finished-at="2016-02-10T17:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logic -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:healthcalculator.DashboardHealthCalculatorLogic@6f17beff]" name="closebrowser" is-config="true" duration-ms="248" started-at="2016-02-10T17:56:52Z" finished-at="2016-02-10T17:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:healthcalculator.DashboardHealthCalculatorLogic@6f17beff]" name="OpenBrowser" is-config="true" duration-ms="12022" started-at="2016-02-10T17:56:52Z" finished-at="2016-02-10T17:57:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="testUntitled()[pri:0, instance:healthcalculator.DashboardHealthCalculatorLogic@6f17beff]" name="testUntitled" duration-ms="3404" started-at="2016-02-10T17:57:04Z" finished-at="2016-02-10T17:57:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUntitled -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:healthcalculator.DashboardHealthCalculatorLogic@6f17beff]" name="closebrowser" is-config="true" duration-ms="163" started-at="2016-02-10T17:57:07Z" finished-at="2016-02-10T17:57:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:healthcalculator.DashboardHealthCalculatorLogic@6f17beff]" name="OpenBrowser" is-config="true" duration-ms="12300" started-at="2016-02-10T17:57:07Z" finished-at="2016-02-10T17:57:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="BMICalculation()[pri:1, instance:healthcalculator.DashboardHealthCalculatorLogic@6f17beff]" name="BMICalculation" duration-ms="38640" started-at="2016-02-10T17:57:20Z" finished-at="2016-02-10T17:57:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMICalculation -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:healthcalculator.DashboardHealthCalculatorLogic@6f17beff]" name="closebrowser" is-config="true" duration-ms="186" started-at="2016-02-10T17:57:58Z" finished-at="2016-02-10T17:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- healthcalculator.DashboardHealthCalculatorLogic -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

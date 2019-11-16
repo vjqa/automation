@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="Reports.BloodReport"/>
+      <class name="Reports.BoneReport"/>
+      <class name="Reports.GlucoseReport"/>
+      <class name="Reports.KidneyReport"/>
+      <class name="Reports.LipidReport"/>
+      <class name="Reports.LiverReport"/>
+      <class name="Reports.PregnancyReport"/>
+      <class name="Reports.ThyroidReport"/>
+      <class name="Reports.VitaminReport"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="MyProfile.MyProfile">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- MyProfile.MyProfile -->
+      <class name="Dashboard.DashboardFunctionalTestCase">
+        <methods>
+          <include name="VerifyMedicalCondition"/>
+          <include name="VerifyHealthEducation"/>
+          <include name="VerifyProfile"/>
+          <include name="VerifyAllergy"/>
+          <include name="VerifyMyReports"/>
+          <include name="VerifyHome"/>
+          <include name="VerifyMedication"/>
+          <include name="OpenBrowser"/>
+          <include name="closebrowser"/>
+          <include name="VerifyExercise"/>
+          <include name="VerifyMyDiet"/>
+        </methods>
+      </class> <!-- Dashboard.DashboardFunctionalTestCase -->
+      <class name="VerifyReport.VerifyReports">
+        <methods>
+          <include name="BloodDatewiseReport"/>
+          <include name="GlucoseDatewiseReport"/>
+          <include name="BoneDatewiseReport"/>
+        </methods>
+      </class> <!-- VerifyReport.VerifyReports -->
+      <class name="Login.InvalidTestCase">
+        <methods>
+          <include name="InvalidPwdwithEmailID"/>
+          <include name="BlankPassword"/>
+          <include name="InvalidMobileNumber"/>
+          <include name="InvalidHconnectID"/>
+          <include name="OpenBrowser"/>
+          <include name="closebrowser"/>
+          <include name="InvalidPwdwithHconnectID"/>
+          <include name="InvalidEmailID"/>
+          <include name="InvalidPwdwithMobile"/>
+        </methods>
+      </class> <!-- Login.InvalidTestCase -->
+      <class name="Reports.ReportFunctionalTestCase">
+        <methods>
+          <include name="AddLipidReports"/>
+          <include name="AddGlucoseReports"/>
+          <include name="AddKidneyReports"/>
+          <include name="AddVitaminReports"/>
+          <include name="OpenBrowser"/>
+          <include name="closebrowser"/>
+          <include name="AddPregnancyDetailsReports"/>
+          <include name="AddThyroidReports"/>
+          <include name="AddLiverReports"/>
+          <include name="AddBoneReports"/>
+        </methods>
+      </class> <!-- Reports.ReportFunctionalTestCase -->
+      <class name="EMC.EmergencyCardDetails">
+        <methods>
+          <include name="View"/>
+          <include name="Share"/>
+          <include name="Print"/>
+          <include name="OpenBrowser"/>
+          <include name="closebrowser"/>
+          <include name="Edit"/>
+        </methods>
+      </class> <!-- EMC.EmergencyCardDetails -->
+      <class name="Login.FunctionalTestCase">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="closebrowser"/>
+          <include name="LoginwithEmail"/>
+          <include name="LoginwithHconnectID"/>
+        </methods>
+      </class> <!-- Login.FunctionalTestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
