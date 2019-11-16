@@ -31,6 +31,7 @@ public class BloodReport extends BasetestScript {
 	@Test(priority = 1)
 	public void AddBloodReports() throws IOException, InterruptedException {
 		try{
+		utility screen = new utility();
 		utility.Login(utility.UID, utility.PWD, driver);
 		System.out.println("Enter User Credential");
 
@@ -100,7 +101,7 @@ public class BloodReport extends BasetestScript {
 		 * action.moveToElement(driver.findElement
 		 * (By.id("ctl00_ContentPlaceHolder1_rblDateTemplateOpt_0")));
 		 */
-
+		
 		driver.findElement(
 				By.id("ctl00_ContentPlaceHolder1_rblDateTemplateOpt_0"))
 				.click();
@@ -114,9 +115,11 @@ public class BloodReport extends BasetestScript {
 		Thread.sleep(1000);
 		// driver.findElement(By.xpath(".//*[@id='lnkReport']")).click();
 		driver.findElement(By.xpath(".//*[@id='ctl00_ContentPlaceHolder1_rptrPatientdetailsDateWise']/table/tbody/tr[2]/td[5]")).click();
+		screen.setCaptureScreenShot(driver);
 		// driver.findElement(By.xpath(".//*[@id='ctl00_ContentPlaceHolder1_btnDownloadLink']")).click();
 		System.out.println("Blood View report link found");
 
+		
 		
 		viewList.clear();
 		

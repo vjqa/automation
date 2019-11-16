@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="healthcalculator.DashboardHealthCalculatorLogic">
+      <class name="allforms.Medication">
         <methods>
           <include name="closebrowser"/>
-          <include name="BMICalculation"/>
           <include name="OpenBrowser"/>
+          <include name="tearDown"/>
+          <include name="testUntitled"/>
         </methods>
-      </class> <!-- healthcalculator.DashboardHealthCalculatorLogic -->
+      </class> <!-- allforms.Medication -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

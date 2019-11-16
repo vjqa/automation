@@ -3,6 +3,7 @@ package framework;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -18,8 +19,8 @@ public class BasetestScript {
 		
 		/*System.setProperty("webdriver.chrome.driver", "D:\\Vrajesh\\General\\workspace\\Hconnect_Login\\src\\Driver\\chromedriver.exe");
 		
-		driver = new ChromeDriver();*/
-		
+		driver = new ChromeDriver();
+		*/
 		/*System.setProperty("webdriver.ie.driver", "D:\\SW\\eclipse-java-luna-SR1-RC3-win32-x86_64\\IEDriverServer.exe");
 		driver = new InternetExplorerDriver();*/
 		driver = new FirefoxDriver();

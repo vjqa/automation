@@ -14,13 +14,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.testng.ITestContext;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
 
-public class utility 
+public class utility implements ITestListener
 {
 	
 	//Hconnect web application
 	public static final String BASEURL = "https://www.hconnect.in/";
-	public static final String UID = "9016836027";
+	public static final String UID = "123456789";
 	public static final String PWD = "123456";
 	
 	// Capturing Date Time wise screenshot
@@ -41,6 +44,12 @@ public class utility
 	return dateFormat.format(cal.getTime()).toString();
 	}    
 	
+	public String getTestClassName(String testName) {
+		String[] reqTestClassname = testName.split("\\.");
+		int i = reqTestClassname.length - 1;
+		System.out.println("Required Test Name : " + reqTestClassname[i]);
+		return reqTestClassname[i];
+	}
 	public static void Login(String user,String pass,WebDriver driver)
 	{
 		driver.findElement(By.id("txtUserName")).sendKeys(user);
@@ -51,5 +60,47 @@ public class utility
 		
 		driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
 				
+	}
+
+	@Override
+	public void onTestStart(ITestResult result) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onTestSuccess(ITestResult result) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onTestFailure(ITestResult result) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onTestSkipped(ITestResult result) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onStart(ITestContext context) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onFinish(ITestContext context) {
+		// TODO Auto-generated method stub
+		
 	}
 }
